@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <style>
+        
+        .icon-bar {
+  width: 100%; /* Full-width */
+  height: 90%;
+  background-color:plum; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color:skyblue; /* Add a hover color */
+}
+
+.active {
+  background-color: #04AA6D; /* Add an active/current color */
+}
+    </style>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz </title>
+    <link rel="stylesheet" href="stylecss/styles1.css">
+</head>
+<body>
+    <div class="icon-bar">
+        <a class="active" href="CertificationQuiz.html"><i class="fa fa-home">Home Page</i></a> 
+        <h1 style="font-size:25px;  text-align: center; color: black;"> Click on Start Quiz button to interact with AWS Cloud Platform quiz instructions...</h1>
+    </div>
+    
+        <div class="start_btn"><button>Start Quiz</button></div>
+     <div class="info_box">
+        <div class="info-title"><span>Some Rules for this Quiz</span></div>
+        <div class="info-list">
+            <div class="info" style="font-weight:bold;">1. Select quiz exam as per your profession.</div>
+            <div class="info" style="font-weight:bold;">1. Total no of questions are 10.</div>
+            <div class="info" style="font-weight:bold;">2. You will have only <span> 10 seconds</span> per each question.</div>
+            <div class="info" style="font-weight:bold;">3. Once you select your answer, it can't be undone.</div>
+            <div class="info" style="font-weight:bold;">4. You can't exit from the Quiz while you're playing.</div>
+            <div class="info" style="font-weight:bold;">5. You'll get points on the basis of your correct answers.</div>
+            <div class="info" style="font-weight:bold;">6. Passing marks for quiz is 20.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+           
+            <button class="quit" onclick="location.href='questions.html'">Continue</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+ 
+</body>
+</html>
+</html>
